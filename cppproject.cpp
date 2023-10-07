@@ -51,7 +51,6 @@ public:
     {
         cout << "\n\tProduct No (ID): ";
         cout << ProductNumber;
-        // place for mukhammadali, int should be entered not STR!
 
         cout << "\n\tName of the Product: ";
         cout << fullname;
@@ -190,7 +189,7 @@ int main()
 menu:
     system("cls");
     gotoxy(25, 2);
-    cout << " Welcome to Super Market Billing System for Resource managers by 'UHope'!!! ";
+    cout << " Welcome to Super Market Billing System for Resource managers!!! ";
     gotoxy(25, 3);
     cout << long_line <<"==========================" << endl << endl;
     cout << "\n\t\t1 - Get bill report\n\n";
